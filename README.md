@@ -9,7 +9,7 @@
 
 ### Training:
 
-Prepare the images with slight shifts (light filed images) into the './scenes_train' folder for reflection image synthesizing and training the networks. We only use **five** of each group of images to generate small npy patch for speeding up the training process. This is implemented by 
+Prepare the images with slight shifts (light filed images) into the './scenes_train' folder for reflection image synthesizing and training the networks. We only use **five** of each group of images ("3_3" the central one, "2_2" the top-left one, "2_4" the top-right one, "4_2" the bottom-left one, "4_4" the bottom-right one)to generate small npy patch for speeding up the training process. This is implemented by 
 
 ```
 python npy_save_database_5views.py
