@@ -9,13 +9,13 @@
 
 ### Training:
 
-Prepare the images with slight shifts (light filed images) into the './scenes_train' folder for reflection image synthesizing and training the networks. We only use **five** of each group of images ("3_3" the central one, "2_2" the top-left one, "2_4" the top-right one, "4_2" the bottom-left one, "4_4" the bottom-right one)to generate small npy patch for speeding up the training process. This is implemented by 
+Prepare the images with slight shifts (light filed images) into the './scenes_train' folder for reflection image synthesizing and training the networks. We only use **five** of each group of images ("3_3" the central one, "2_2" the top-left one, "2_4" the top-right one, "4_2" the bottom-left one, "4_4" the bottom-right one) to generate small npy patch for speeding up the training process. This is implemented by 
 
 ```
 python npy_save_database_5views.py
 ```
 
-All the npy files will be stored in the 'info_four_closest_corners_train_set'  folder. Then
+All the npy files will be stored in the 'info_four_closest_corners_train_set'  folder (npy file path). Then
 
 - Train the disparity network: 
 
@@ -25,11 +25,11 @@ python train_disparity.py
 
 - Train the edge reconstruction network: 
 ```
-python train_edge.py --train_label_dir info_four_closest_corners_train_set
+python train_edge.py --train_label_dir (npy file path)
 ```
 - Train the image reconstruction network: 
 ```
-python train_img_rec.py --train_label_dir info_four_closest_corners_train_set
+python train_img_rec.py --train_label_dir (npy file path)
 ```
 ### Inference and evaluation:
 
