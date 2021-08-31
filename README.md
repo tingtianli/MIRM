@@ -33,9 +33,9 @@ python train_img_rec.py --train_label_dir info_four_closest_corners_train_set
 ```
 ### Inference and evaluation:
 
-- We also provide the <u>[pre-trained models](https://drive.google.com/file/d/1UmwgggXnpxeql4ZFi3Vq9Y_vgvMXyFxV/view?usp=sharing)</u> and the <u>[synthesized test data](https://drive.google.com/file/d/15JF9PMc0oCxwA-ZoCuE-werjDcj0LS4k/view?usp=sharing)</u> for evaluation. 
+- We also provide the fine-tuned <u>[pre-trained models](https://drive.google.com/file/d/1UmwgggXnpxeql4ZFi3Vq9Y_vgvMXyFxV/view?usp=sharing)</u> and the <u>[synthesized test data](https://drive.google.com/file/d/15JF9PMc0oCxwA-ZoCuE-werjDcj0LS4k/view?usp=sharing)</u> for evaluation. 
 ```
-python image_separation.py --test_imgs_folder ... --model_dir ...
+python image_separation.py --test_imgs_folder (test images path) ... --model_dir (model parameter path)
 ```
 ## Citation
 T. Li, Y.-H. Chan, and D.P.K. Lun. "Improved multiple-image-based reflection removal algorithm using deep neural networks." IEEE Transactions on Image Processing, 2020.
