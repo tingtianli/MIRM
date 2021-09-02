@@ -31,7 +31,7 @@ python train_img_rec.py --train_label_dir (generated npy file path)
 ```
 ### Inference and evaluation:
 
-- We also provide the fine tuned <u>[pre-trained models](https://drive.google.com/file/d/1UmwgggXnpxeql4ZFi3Vq9Y_vgvMXyFxV/view?usp=sharing)</u> and the <u>[synthesized test data](https://drive.google.com/file/d/1J6Qxm9ICGT_jAWcXX-7tKsSFP6lAJgp1/view?usp=sharing)</u> for evaluation. 
+- We also provide the fine tuned <u>[pre-trained models](https://drive.google.com/file/d/1UmwgggXnpxeql4ZFi3Vq9Y_vgvMXyFxV/view?usp=sharing)</u> and the <u>[synthesized test data](https://drive.google.com/file/d/1Vd01fOlCEDiNXsi3_rmqviGTigFtgi0X/view?usp=sharing)</u> for evaluation. 
 ```
 python image_separation.py --test_imgs_folder (test images path) ... --model_dir (model parameter path)
 ```
