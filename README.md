@@ -1,9 +1,10 @@
 # MIRM
-### Codes for the paper "Improved multiple-image-based reflection removal algorithm using deep neural networks" 
+### Codes for "Improved multiple-image-based reflection removal algorithm using deep neural networks" (MIRM)
+
+![cover](cover.png)
 
 [[paper](https://drive.google.com/file/d/1d7e_2T23_BR5YIB32j53VdWktlM6-3N0/view?usp=sharing)] 
 
-![cover](cover.png)
 ### Codes are implemented on Pytorch>=1.0 
 
 ## How to use
