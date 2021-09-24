@@ -1,4 +1,4 @@
-# MIRM
+# Improved multiple-image-based reflection removal algorithm using deep neural networks
 ### Codes for "Improved multiple-image-based reflection removal algorithm using deep neural networks" (MIRM)
 
 ![cover](cover.png)
