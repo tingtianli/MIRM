@@ -3,7 +3,7 @@
 
 ![cover](cover.png)
 
-[[paper](https://drive.google.com/file/d/1d7e_2T23_BR5YIB32j53VdWktlM6-3N0/view?usp=sharing)] 
+[[paper](https://www.researchgate.net/publication/347464440_Improved_Multiple-Image-Based_Reflection_Removal_Algorithm_Using_Deep_Neural_Networks)] 
 
 ### Codes are implemented on Pytorch>=1.0 
 
