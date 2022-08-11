@@ -3,7 +3,7 @@
 
 ![cover](cover.png)
 
-[[paper](https://pan.baidu.com/s/19CwcDGvUaR-IqRiI-8hn0Q?pwd=ercw)] 
+[[paper](https://arxiv.org/ftp/arxiv/papers/2208/2208.04679.pdf)] 
 
 ### Codes are implemented on Pytorch>=1.0   
 
